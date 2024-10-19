@@ -1,0 +1,27 @@
+main {
+    background-color: darkgray;
+    margin: 0 auto;
+    max-width: 1600px;
+    text-align: center;
+}
+
+.img_1 {
+    border: 2px solid black;
+    border-radius: 50%;
+    display: block;
+    margin: 40px;
+}
+
+.img_2 {
+    border: 2px solid black;
+    border-radius: 50%;
+    display: block;
+    margin: 40px;
+}
+
+.img_3 {
+    border: 2px solid black;
+    border-radius: 50%;
+    display: block;
+    margin: 40px;
+}

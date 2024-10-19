@@ -1,0 +1,34 @@
+main {
+    background-color: rgb(65, 113, 216);
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    color:antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.list {
+    margin: 0 auto;
+    width: 45%;
+    text-align: center;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head {
+    font-size: 40px;
+}
+.head:hover {
+    color:black;
+}
+
+.img1 {
+    font-size: 28px;
+    margin: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.foot {
+    color:black;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
