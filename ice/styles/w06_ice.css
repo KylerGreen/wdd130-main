@@ -15,6 +15,7 @@ main {
     grid-column: 2/3;
     grid-row-start: 1;
 }
+
 .grid_image {
     z-index: 0;
     grid-column-start: 1;
