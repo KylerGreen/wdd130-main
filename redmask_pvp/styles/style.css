@@ -13,8 +13,14 @@ header {
     z-index: 1;
 }
 
+header a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
 header a {
     background-color: black;
+    color: aliceblue;
     opacity: 80%;
     font-size: 50px;
     font-family: "Fira Sans Condensed", "Spline Sans", sans-serif;
