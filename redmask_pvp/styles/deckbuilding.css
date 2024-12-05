@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fjalla+One&family=Spline+Sans:wght@300..700&display=swap');
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 75px;
+    grid-template-rows: 1fr;
+    z-index: 1;
+}
+
+header a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+header a {
+    background-color: black;
+    color: aliceblue;
+    opacity: 80%;
+    font-size: 50px;
+    font-family: "Fira Sans Condensed", "Spline Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.logo {
+    background-color: black;
+    grid-column: 4/5;
+    z-index: 1;
+}
+
+.mainimage {
+    grid-column: 1/5;
+    margin-top: -100px;
+    z-index: 0;
+    width: 100%;
+    max-height: 600px;
+}
+
+.maintext {
+    background-color: aliceblue;
+    border: 50px solid slateblue;
+
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 2em;
+}
+
+footer {
+    height: 75px;
+    background-color: black;
+    opacity: 80%;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    font-size: 40px;
+    font-family: "Fira Sans Condensed", "Spline Sans", sans-serif;
+    text-decoration: none;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+  
+  /* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: aliceblue;
+    display: none;
+    overflow: hidden;
+}

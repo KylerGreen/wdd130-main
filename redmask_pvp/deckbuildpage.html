@@ -11,31 +11,52 @@
         <a href="index.html">Home</a>
         <a href="gearpage.html">Gear</a>
         <a href="deckbuildpage.html">Deckbuilding</a>
-        <img src="Images/Redmask's-Guide-Logo.png" alt="Redmask's Guide to PvP Logo">
+        <img class="logo" src="Images/Redmask's-Guide-Logo.png" alt="Redmask's Guide to PvP Logo">
     </header>
     <main>
         <section class="head">
-            <img src="Images/Cards.jpg" alt="Wizard101 Cards">
+            <img class="mainimage" src="Images/Cards.jpg" alt="Wizard101 Cards">
         </section>
         <section class="maintext">
             <h1>Deckbuilding<h1>
-            <p>
-                Building the Right Deck: Building a deck for PvP is the most crucial thing a wizard can do. When you're starting out it can be pretty daunting
-                 and difficult to build a deck, but here are some basic guidelines: In your main deck try putting cards that have a gambit based on your strengths,
-                  cards that counter any type of enemies strengths (mostly focusing on shields and weaknesses), and any debuffing cards that may help you.
-                   In the side deck make sure to have plenty of tower shields and weaknesses, and have a few spirit and elemental shields, and lastly a couple bigger
-                    hitting cards for those emergency hits. 
+                <button class="accordion">Building the Right Deck</button>
+                <div class="panel">
+                  <p>Building a deck for PvP is the most crucial thing a wizard can do. When you're starting out it can be pretty daunting
+                    and difficult to build a deck, but here are some basic guidelines: In your main deck try putting cards that have a gambit based on your strengths,
+                     cards that counter any type of enemies strengths (mostly focusing on shields and weaknesses), and any debuffing cards that may help you.
+                      In the side deck make sure to have plenty of tower shields and weaknesses, and have a few spirit and elemental shields, and lastly a couple bigger
+                       hitting cards for those emergency hits. </p>
+                </div>
                 
-                    Strategies: The main strategy you should focus on at this lower level PvP is to get a Gambit card in hand after setting up the gambit. The main idea is that
-                you focus on debuffing the enemy in some way so that you don’t get an open hit on you (meaning a hit with no debuffs), while setting up your gambit you should
-                  counter enemies gambits (a key component of this is watching what archmastery pips they are using, and taking into account what school they are based on the spells they cast),
-                  when you have an open hit you should take it immediately (this means you need to keep as many pips as you can for those open hits), and lastly if you have an open hit and your
-                    gambit set up take the hit. 
-            
-            </p>
+                <button class="accordion">Strategies</button>
+                <div class="panel">
+                  <p>The main strategy you should focus on at this lower level PvP is to get a Gambit card in hand after setting up the gambit. The main idea is that
+                    you focus on debuffing the enemy in some way so that you don’t get an open hit on you (meaning a hit with no debuffs), while setting up your gambit you should
+                      counter enemies gambits (a key component of this is watching what archmastery pips they are using, and taking into account what school they are based on the spells they cast),
+                      when you have an open hit you should take it immediately (this means you need to keep as many pips as you can for those open hits), and lastly if you have an open hit and your
+                        gambit set up take the hit. </p>
+                </div>
             <img src="Images/Antique_Deck.jpg" alt="Card Deck">
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <a href="site-plan.html">Site-Plan</a>
+    </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
 </body>
 </html>
